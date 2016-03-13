@@ -1,0 +1,23 @@
+{
+  "name": "pos-express",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WY08271/pos-express-WY08271.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WY08271/pos-express-WY08271/issues"
+  },
+  "homepage": "https://github.com/WY08271/pos-express-WY08271#readme",
+  "dependencies": {
+    "express": "^4.13.4",
+    "mongodb": "^2.1.7"
+  }
+}
