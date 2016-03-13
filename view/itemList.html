@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>ItemList</title>
+  <link rel="stylesheet" href="css/itemList.css">
+  <link rel="stylesheet" href="../lib/bootstrap/css/bootstrap.min.css">
+</head>
+
+<body class="container">
+  <section class="header">
+    <nav class="navbar navbar-static-top">
+      <ul class="nav nav-tabs">
+        <li role="presentation" class="active"><a href="index.html">商品列表</a></li>
+        <li role="presentation"><a href="cart.html">购物车</a></li>
+        <li role="presentation"><a href="receiptList.html">购物记录</a></li>
+      </ul>
+    </nav>
+  </section>
+
+  <section class="bodyer">
+
+    <div class="page-header">
+      <h1>商品列表</h1>
+    </div>
+
+    <table class="table table-hover">
+      <thead>
+        <tr>
+          <th>商品</th>
+          <th>单价(元)</th>
+          <th>选择</th>
+        </tr>
+      </thead>
+      <tbody>
+
+      </tbody>
+    </table>
+  </section>
+
+  <section class="footer">
+    <nav class="navbar navbar-default navbar-fixed-bottom container">
+      <p class="navbar-text navbar-right"><a href="cart.html" class="navbar-link">购物车</a></p>
+      <p class="navbar-text navbar-right">已选择商品<span id="selectedCount">0</span>件</p>
+    </nav>
+  </section>
+
+</body>
+<script type="text/javascript" src="../lib/jquery/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="../lib/bootstrap/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../public/js/itemList.js"></script>
+
+</html>
