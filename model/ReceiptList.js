@@ -47,9 +47,9 @@ ReceiptList.addReceiptList = function(receiptItems, date, count, amount, callbac
   callback(receiptList);
 };
 
-ReceiptList.devareReceiptList = function(date, callback) {
+ReceiptList.deleteReceiptList = function(date, callback) {
   ReceiptList.findOneAndRemove({
-    date: 'date'
+    date: date
   }, (err, receiptItem) => {
     if (err) throw err;
 

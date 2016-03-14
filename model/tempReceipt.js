@@ -24,9 +24,17 @@ TempReceipt.addTempReceipt = function(receiptItems, date, count, amount, callbac
     count: count,
     amount: amount
   });
-
-  tempReceipt.save(tempReceipt);
+//
+  tempReceipt.save();
   callback(tempReceipt);
 };
+
+TempReceipt.getTempReceipt = function(callback){
+  TempReceipt.find({},(err, tempReceipt) => {
+    if(err) throw err;
+
+    callback(tempReceipt);
+  });
+}
 
 module.exports = TempReceipt;
