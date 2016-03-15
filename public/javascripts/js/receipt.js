@@ -10,7 +10,7 @@ function flashPage() {
 
 function updatePage() {
   $.ajax({
-    url: '/gettempreceipts',
+    url: '/gettempreceipt',
     type: 'GET',
     complete: function(tempReceipt) {
       console.log(tempReceipt);

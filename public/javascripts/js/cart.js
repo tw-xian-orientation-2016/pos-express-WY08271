@@ -27,10 +27,6 @@ $(document).ready(function() {
 function updateReceiptItem(barcode, count) {
   $.ajax({
     url: '/updatereceiptitem',
-    data: {
-      barcode:barcode,
-      count:count
-    }
     type: 'POST',
     complete: function(successfulTip) {
       console.log(successfulTip);
